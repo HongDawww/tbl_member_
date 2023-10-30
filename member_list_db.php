@@ -23,11 +23,11 @@
 		// 쿼리문 작성 --> LIMIT 사용
 		if ( empty($page) ) {
 			// echo "O (true)";
-			$strSQL = "SELECT * FROM tbl_member order by idx DESC";
+			$strSQL = " SELECT * FROM tbl_member order by idx DESC ";
 		}
 		else {
 			// echo "X (false)";
-			$strSQL = "SELECT * FROM tbl_member order by idx DESC LIMIT $c_position, $listValue";
+			$strSQL = " SELECT * FROM tbl_member order by idx DESC LIMIT $c_position, $listValue ";
 		}
 		$stmt = $pdo->prepare($strSQL);
 		// exit;
@@ -89,11 +89,12 @@
 					while( $row = $stmt->fetch() ) {
 				?>
 						<tr>
+						
 							<td><? echo $row["idx"] ?></td>
 							<td><? echo $row["user_id"] ?></td>
 							<td><? echo $row["user_name"] ?></td>
 							<td class="text-left"><? echo $row["user_email"] ?></td>
-							
+						
 							<td>
 								<a class="ahref" href="member_update_form.php?idx=<? echo $row["idx"] ?>"><button class="btn btn-primary">수정</button></a>
 								<a class="ahref" href="member_delete_form.php?idx=<? echo $row["idx"] ?>"><button class="btn btn-danger">삭제</button></a>

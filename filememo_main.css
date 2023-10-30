@@ -1,10 +1,4 @@
 /* main form */
-ul > li {list-style: none;}
-ul > li > input {
-	padding: 4px;
-	margin: 4px;
-	width: 240px;
-}
 li > textarea {
 	resize: none;
 	padding: 10px;

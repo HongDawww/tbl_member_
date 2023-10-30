@@ -4,12 +4,11 @@
 	$user_name = $_POST["user_name"];
 	$user_email = $_POST["user_email"];
 	$user_password = $_POST["user_password"];
-	$user_register = $_POST["user_register"];
 
 	// try - catch 사용
 	try{
 		// DB 연결
-		$pdo = new PDO('mysql:host=localhost; port=3306; dbname=tbl_member','root','php504');
+		$pdo = new PDO('mysql:host=localhost;dbname=tbl_member','root','php504');
 
 		$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 			// 쿼리 작성
