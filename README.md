@@ -22,15 +22,16 @@
 
 
 # 활용 기술
-  
-  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
-  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
-  <img src="https://img.shields.io/badge/VisualStudio-5C2D91?style=for-the-badge&logo=Slack&logoColor=white">
-  <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+  <div>
+   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+   <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white">
+   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
+   <img src="https://img.shields.io/badge/VisualStudio-5C2D91?style=for-the-badge&logo=Slack&logoColor=white">
+   <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+  </div>
 
 # page information 💁
 📃 member list 📃
@@ -67,3 +68,9 @@
   - delete ( 비밀번호 불일치 ) :  메세지 출력
   - back : 이전 페이지로 이동
   - memberlist : memberlist 페이지로 이동
+
+✍️ Memo ✍️ 
+ - 아이디 , 이메일, 비밀번호 , 메모 입력란 생성
+ - submit, back 버튼 생성
+ - submit 클릭시 하단에 출력
+ - back 버튼 클릭시 이전 페이지로 이동 
