@@ -1,0 +1,134 @@
+* { padding: 0; margin: 0;}
+/* 
+h3 { text-align: center; padding: 50px; } */
+
+table.table-bordered {
+border: 10px solid #e5e5e5 !important;
+}
+table.table-bordered > thead > tr > th {
+border: 1px solid #e5e5e5 !important;
+}
+table.table-bordered > tbody > tr > td {
+border: 0px solid blue;
+}
+.table > thead > tr > th, 
+.table > thead > tr > td,
+.table > tbody > tr > th, 
+.table > tbody > tr > td {
+vertical-align: middle;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  50% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+.tracking-out-contract {
+  -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+	        animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 20px;
+}
+
+/* h1 { height: 100px; text-align: center; }
+  
+  h1 span {
+    margin-top: 20px; 
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .5s ease infinite alternate;
+    font-family: 'Titan One', cursive;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #ccc,
+                 0 3px 0 #ccc,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .4);
+  }
+  
+  h1 span:nth-child(2) { animation-delay: .5s; }
+  h1 span:nth-child(3) { animation-delay: .6s; }
+  h1 span:nth-child(4) { animation-delay: .7s; }
+  h1 span:nth-child(5) { animation-delay: .8s; }
+
+  
+  @keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 50px 25px rgba(255, 255, 255, 0.2);
+    }
+} */
+
+@media ( max-width: 768px ) {
+* { padding: 0; margin: 0; }
+
+.container, .container-fluid { padding: 0; }
+
+
+/* 테이블명 : tbl1 */
+table.tbl1 thead { display: none; }
+table.tbl1.table-bordered { border :10px solid #e5e5e5 !important}
+table.tbl1 tr { border: 1px solid; }
+table.tbl1 td { display: block; }
+table.tbl1 td.text-left { background: #e5e5e5; text-align: center !important; }
+table.tbl1 td:first-child, 
+/* table.tbl1 td:nth-child(5), */
+table.tbl1 td:last-child { display: table-cell; border: 1px solid; }
+.ahref { display: block; margin-top: 10px; }
+
+/* thead 필드명 노출 */
+table.tbl1 td:nth-child(2), 
+table.tbl1 td:nth-child(3), 
+table.tbl1 td:nth-child(4) { text-align: left !important; background: none; }
+table.tbl1 td:before { display: inline-block; width: 60px; background: #f1f5e9; padding: 0 0 0 4px; margin-right: 8px; border-radius: 10px; }
+table.tbl1 td:nth-child(2):before { content: "ID : "; }
+table.tbl1 td:nth-child(3):before { content: "Name : "; }
+table.tbl1 td:nth-child(4):before { content: "E.mail : "; }
+}
+
+/* 페이징 */
+nav { border: 0px solid; display: flex; justify-content: center; }
+nav > ul > li { list-style: none; }
+.pagination li { padding: 0 2px; }
+
+.prevfirst a { border-radius: 20px !important; width: 90px; text-align: center; }
+.prev a { border-radius: 20px !important; width: 120px; text-align: center; margin-right: 30px; }
+.next a { border-radius: 20px !important; width: 120px; text-align: center; margin-left: 30px; }
+.nextlast a { border-radius: 20px !important; width: 90px; text-align: center; }
+
+/*
+.pagination li:first-child, 
+.pagination li:last-child { padding: 0 30px; }
+.pagination li:first-child a { border-radius: 20px !important; width: 120px; text-align: center; }
+.pagination li:last-child a { border-radius: 20px !important; width: 120px; text-align: center; }
+*/

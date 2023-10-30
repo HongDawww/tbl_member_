@@ -1,0 +1,82 @@
+
+body{ text-align: center;}
+ul { list-style: none;}
+form{ margin-top: 120px;}
+h1 { height: 100px;   text-align: center; margin-bottom: 30px;}
+#form-button { margin-left: 30px; }
+#form-button button {
+  padding: 10px;
+  border: none;
+  box-shadow:inset -2px 14px 14px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:8px;
+	border:2px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	/* padding:10px 30px; */
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;}
+#form-button button:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+  h1 span {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .5s ease infinite alternate;
+    font-family: 'Titan One', cursive;
+    font-size: 80px;
+    color: #FFF;
+
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #ccc,
+                 0 3px 0 #ccc,
+                 0 4px 0 #ccc,
+                 0 5px 0 #ccc,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .4);
+ 
+  }
+  
+  h1 span:nth-child(2) { animation-delay: .9s; }
+  h1 span:nth-child(3) { animation-delay: .9s; }
+  h1 span:nth-child(4) { animation-delay: .9s; }
+  h1 span:nth-child(5) { animation-delay: .9s; }
+  h1 span:nth-child(6) { animation-delay: .9s; }
+  h1 span:nth-child(7) { animation-delay: .9s; }
+  h1 span:nth-child(8) { animation-delay: .9s; }
+  
+  @keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 7px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 9px 0 #CCC,
+                   0 50px 25px rgba(254, 255, 255, 0.2);
+    }
+}
+
+ul > li > input {
+	padding: 15px;
+	margin: 4px;
+	width: 240px;
+}
+.input_register {
+    background-color: #ddd;
+    border: 2px solid #ddd;
+ }
