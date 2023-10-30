@@ -14,8 +14,9 @@
 > 
 > ** insert / update / delete 동일 css 적용
 
-![insert](https://github.com/HongDawww/tbl_member_/assets/142575028/d77e29ac-75ee-449b-80aa-dde52486d279)
+
 ![list](https://github.com/HongDawww/tbl_member_/assets/142575028/ef95af4e-fb9e-43ad-9344-b16c9cff153c)
+![insert](https://github.com/HongDawww/tbl_member_/assets/142575028/d77e29ac-75ee-449b-80aa-dde52486d279)
 ![update](https://github.com/HongDawww/tbl_member_/assets/142575028/218dcbd2-52aa-4632-a458-3239eb084958)
 
 
