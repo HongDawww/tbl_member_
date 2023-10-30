@@ -76,5 +76,5 @@
 ✍️ Memo ✍️ 
  - 아이디 , 이메일, 비밀번호 , 메모 입력란 생성
  - submit, back 버튼 생성
- - submit 클릭시 하단에 출력
+ - submit 클릭시 하단에 출력, filedb.txt 에 저장됨
  - back 버튼 클릭시 이전 페이지로 이동 
