@@ -37,6 +37,23 @@
    <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
   </div>
 
+
+
+
+💛 추가된 기능 💛 
+
+
+제목 영역 css 애니메이션 추가
+
+input 입력란 css 추가
+
+
+button css 추가 
+
+
+
+
+
 # page information 💁
 📃 member list 📃
 - 전체 게시글 리스트 출력
