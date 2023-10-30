@@ -15,6 +15,7 @@
 ![insert](https://github.com/HongDawww/tbl_member_/assets/142575028/d77e29ac-75ee-449b-80aa-dde52486d279)
 ![list](https://github.com/HongDawww/tbl_member_/assets/142575028/ef95af4e-fb9e-43ad-9344-b16c9cff153c)
 ![update](https://github.com/HongDawww/tbl_member_/assets/142575028/218dcbd2-52aa-4632-a458-3239eb084958)
+** insert / update / delete 동일 css 적용
 
 # tbl_member / ERD
 ![tbl_member_erd](https://github.com/HongDawww/tbl_member/assets/142575028/068b629f-76b4-4372-adc1-20abde11ab5d)
