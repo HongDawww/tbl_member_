@@ -66,11 +66,11 @@ catch (Exception $e ) {
 		<form action="member_delete_db.php" method="post" id="memberDeleteForm">
 			<input type="hidden" name="idx" value="<?php echo $idx ?>"> 
 			<ul>
-				<li><input type="text" name="user_id" placeholder="user_id" readonly value="<?php echo $row["user_id"] ?>"></li>
-				<li><input type="text" name="user_name" placeholder="user_name" readonly value="<?php echo $row["user_name"] ?>"></li>
-				<li><input type="text" name="user_email" placeholder="user_email" readonly value="<?php echo $row["user_email"] ?>"></li>
-				<li><input type="text" name="user_password" placeholder="user_password" readonly value="<?php echo $row["user_password"] ?>"></li>
-				<li><input type="text" name="user_register" placeholder="user_register" readonly value="<?php echo $row["user_register"] ?>"></li>
+				<li><input type="text" name="user_id" placeholder="아이디" readonly value="<?php echo $row["user_id"] ?>"></li>
+				<li><input type="text" name="user_name" placeholder="이름" readonly value="<?php echo $row["user_name"] ?>"></li>
+				<li><input type="text" name="user_email" placeholder="이메일" readonly value="<?php echo $row["user_email"] ?>"></li>
+				<li><input type="text" name="user_password" placeholder="비밀번호" readonly value="<?php echo $row["user_password"] ?>"></li>
+				<li><input type="text" name="user_register" placeholder="등록일" readonly value="<?php echo $row["user_register"] ?>"></li>
 				<li><input type="password" name="validpw" placeholder="비밀번호입력"></li>
 			</ul>
 		</form>

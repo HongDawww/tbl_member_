@@ -42,10 +42,10 @@
 		<form action="member_update_db.php" method="POST" id="memberinsertForm">
 			<input type="hidden" name="idx" value="<?php echo $idx ?>">
 			<ul>
-				<li><input type="text" name="user_id" placeholder="user_id" value="<?php echo $row["user_id"] ?>"></li>
-				<li><input type="text" name="user_name" placeholder="user_name" value="<?php echo $row["user_name"] ?>"></li>
-				<li><input type="text" name="user_email" placeholder="user_email" value="<?php echo $row["user_email"] ?>"></li>
-				<li><input type="password" name="user_password" placeholder="user_password" value="<?php echo $row["user_password"] ?>"></li>
+				<li><input type="text" name="user_id" placeholder="아이디" value="<?php echo $row["user_id"] ?>"></li>
+				<li><input type="text" name="user_name" placeholder="이름" value="<?php echo $row["user_name"] ?>"></li>
+				<li><input type="text" name="user_email" placeholder="이메일" value="<?php echo $row["user_email"] ?>"></li>
+				<li><input type="password" name="user_password" placeholder="비밀번호" value="<?php echo $row["user_password"] ?>"></li>
 			</ul>
 
 		</form>
